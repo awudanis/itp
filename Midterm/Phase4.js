@@ -31,7 +31,7 @@ function repeat(n) {
   for (let i = 0; i <= n-1; i++) {
     drawObject(x, y, s); 
     x += 20;
-    if ((i+1)%20 === 0 && i !== 0 ){
+    if ((i+1)%20 === 0){
       y += 20;
       x = 0;
     }
