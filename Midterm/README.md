@@ -12,11 +12,11 @@ For phase 2, I just drew the shapes out with code similar to the example given t
 
 Using the example code as reference, I really only changed the x,y of the eclipses and made them the same size. `ellipse(30, 50, 50, 50);` and `ellipse(70, 50, 50, 50);`. Then I made a square below that with:
 
- `push();
-  translate (50, 35)
-  rotate(PI / 4);
-  rect(0, 0, 50, 50);
-  pop();  `
+ `push();`
+ `translate (50, 35)`
+ `rotate(PI / 4);`
+ `rect(0, 0, 50, 50);`
+ `pop();`
 
 I did have some trouble rotating the square though when I had to make the bottom of the heart. At first I used the rotate function but it didn't move the square at all. I then searched it up on the [p5js website](https://p5js.org/reference/p5/rotate/) to see how they used the function.
 
