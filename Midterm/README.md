@@ -29,8 +29,10 @@ I saw that they used PI/4 to rotate things by 45 degrees so I also used that to 
 
 For phase 3, I still created everything while referencing the code given in the [assignment page](https://github.com/rdwrome/261fa25/blob/main/06Midterm/README.md). To make my drawing into a function I first made a function called drawObject(). Then in the setup I also made sure to make the canvas size 400 by 400 as the assignment asks. In my drawObject() function, I copied the code from Phase 2 and then added: 
 
-`translate(x, y);
- scale(s);`
+```
+translate(x, y);
+scale(s);
+```
  
 I needed to put this because I created the function saying that I needed 3 variables so I could scale the picture as well as move its x,y cordinates. This was actually the only debugging I needed to do since it was actually giving me an error that my variables weren't defined. To fix this I just had to say in the function that I am looking for x,y for my translate function, `translate(x, y);` and s for my scale function `scale(s);`. This is because of the scope of the function we talked about in class, similar to having an accidental only change that note for the bar it occured.
   
@@ -41,10 +43,12 @@ For phase 4, I just had to create a nested forloop to make the tiles. Before mak
 
 There is also an if statement inside:
 
-`if ((i+1)%20 === 0){
+```
+if ((i+1)%20 === 0){
       y += 20;
       x = 0;
-    }`
+    }
+```
 
 This statement checks if there is 20 in a row, if there is, then it moves onto the row. I did i+1 here because i starts at 0 and because 0 divided by anything is still 0 so it would make a new row after the first heart, which is not what I want. Then I also set the x as 0 so the row gets created from the beginning each time.
 
