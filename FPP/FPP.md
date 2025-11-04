@@ -14,7 +14,7 @@ A website where you can convert between different file types.
 
 ## 1 Paragraph Overview
 
-I will be making a website that is going to be hosted on my github and can convert between certain audio file types (wav, ogg, etc.). Users will be able to drag/upload their file into the website and download that file as a different file type safely. I will be using the ffmpeg.wasm library to make the core part of my project.
+I’m creating a website that will be hosted on my GitHub and allows users to convert between common audio file types like .wav and .ogg. Visitors will be able to drag or upload their files directly into the site and safely download the converted version all without anything being uploaded to a server. The project uses the ffmpeg.wasm library to handle the conversions, running everything locally in the browser for fast and private processing. It is going to be built only with HTML, CSS, and JavaScript. It is going to be secure and easy to access from any browser.
 
 ## Will any work as part of this project overlap with any work you are doing outside of this class? For another class? Who is the professor in this class?
 
