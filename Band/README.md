@@ -13,5 +13,7 @@ I created the css file for the website and made sure that everything worked with
 #### Short assessments of your group members and the contributions they made
 
 Chloe - created the song and found pictures for the website.
+
 Jihae - wrote bios and all the text that is displayed on the website. 
+
 Danny - created the HTML file for the website and hosted the website on their github.
